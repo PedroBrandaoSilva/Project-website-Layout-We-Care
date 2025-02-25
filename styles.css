@@ -1,0 +1,161 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.link-header{
+    color: #989D9C;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+
+.button-header{
+    background: #665AE1;
+    font-weight: 600;
+    width: 130px;
+    height: 41px;
+    border-radius: 50px;
+    border: none;   
+    font-size: 24px;
+    line-height: 29.26px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+
+.logo-img{
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+header{
+    margin: 44px 0 144px 76px;
+    word-spacing: 50px;
+}
+main{
+    margin-left: 200px;
+}
+
+.main-text{
+    display: inline-block;
+    margin-left: 86px;
+
+}
+ .main-text h1{
+    
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 121.9px;
+    color: #515151;
+
+ }
+ .main-text h2{
+    
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 70.7px;
+    color: #515151;
+
+ }
+
+ .main-text p{
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+
+ }
+
+ .main-text button{
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    background: #ADFF00;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34.13px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+ }
+
+ @media screen and (max-width: 400px){
+
+    body{
+        width: 100%;
+        height: auto;
+    }
+    main{
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    
+    .logo-img{
+        display: block;
+        max-width: 80%;
+        height: auto;
+        margin: 149px auto 0;
+        
+        
+    }
+
+    header{
+        display: none;
+    }
+
+    .main-text{
+        display: block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 14px auto 0;
+    }
+
+    .main-text h1{
+        font-size: 50px;
+        line-height: 60.95px;
+        letter-spacing: 0%;
+
+    }
+
+    .main-text h2{
+        font-size: 30px;
+        line-height: 36.57px;
+        letter-spacing: 0%;
+        margin: 7px auto 32px;
+
+
+    }
+
+    .main-text button{
+        width: 239px;
+        height: 64px;
+        border-radius: 50px;
+        margin: 0 auto;;
+
+    }
+
+
+    .main-text p{
+        display: none;
+    }
+
+
+ }
+    
+ 
