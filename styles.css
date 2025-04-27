@@ -26,9 +26,7 @@
     letter-spacing: 0%;
     color: #ffffff;
     cursor: pointer;
-
 }
-
 
 .logo-img {
     width: 568px;
@@ -53,25 +51,20 @@ main {
 .main-text {
     display: inline-block;
     margin-left: 86px;
-
 }
 
 .main-text h1 {
-
     font-weight: 900;
     font-size: 100px;
     line-height: 121.9px;
     color: #515151;
-
 }
 
 .main-text h2 {
-
     font-weight: 500;
     font-size: 58px;
     line-height: 70.7px;
     color: #515151;
-
 }
 
 .main-text p {
@@ -82,7 +75,6 @@ main {
     color: #848484;
     margin-top: 32px;
     margin-bottom: 65px;
-
 }
 
 .main-text button {
@@ -96,13 +88,9 @@ main {
     border: none;
     cursor: pointer;
     box-shadow: 0px 4px 4px 0px #00000040;
-
 }
 
-
-
 @media screen and (max-width:1496px) {
-
     .main {
         display: flex;
         flex-direction: row;
@@ -115,47 +103,31 @@ main {
 
     .main-text h1 {
         font-size: 70px;
-
-
     }
 
     .main-text h2 {
         font-size: 40px;
-
-
     }
 
     .main-text p {
         font-size: 20px;
-
-
     }
 
     .main-text button {
         font-size: 16px;
         width: 140px;
-
     }
-
-
 }
 
-
-
 @media screen and (max-width:1418px) {
-
     .logo-img {
         width: 40%;
         height: auto;
         margin-left: 0;
     }
-
-
-
 }
 
 @media screen and (max-width:1210px) {
-
     .logo-img {
         width: 40%;
         height: auto;
@@ -168,35 +140,26 @@ main {
 
     .main-text h1 {
         font-size: 50px;
-
-
     }
 
     .main-text h2 {
         font-size: 30px;
         line-height: 20px;
-
-
     }
 
     .main-text p {
         font-size: 18px;
         margin-bottom: 15px;
         width: 450px;
-
     }
 
     .main-text button {
         font-size: 16px;
         width: 140px;
-
     }
-
 }
 
-
 @media screen and (max-width:1007px) {
-
     .main-text {
         display: flex;
         flex-direction: column;
@@ -205,7 +168,6 @@ main {
         right: 70%;
         transform: translateX(50%);
         bottom: 0;
-
     }
 
     .main {
@@ -216,40 +178,32 @@ main {
         width: 40%;
         height: auto;
         margin-left: 50px;
-
-
-
     }
 
     .main-text h1 {
         font-size: 70px;
-
-
     }
 
     .main-text h2 {
         font-size: 40px;
-
-
     }
 
     .main-text p {
         width: 500px;
-
-
     }
 
     .main-text button {
         font-size: 16px;
         width: 140px;
-
     }
-
-
 }
 
-
 @media screen and (max-width:996px) {
+
+    .main {
+        padding: 0;
+        margin: 0;
+    }
 
     .desktop-menu {
         display: none;
@@ -262,92 +216,26 @@ main {
         border-radius: 70px;
         margin-bottom: 5px;
         cursor: pointer;
-       
-        
-
     }
-    .menu .active{
-        background-color: #665AE1;
 
-    }
+    
 
     .all-menus {
         position: fixed;
         left: 40px;
         top: 35px;
-        transform: rotate(0deg);
-        z-index: 2;
-        transition: all 0.6s ease;
+        z-index: 3;
         
-
     }
-    .all-menus .active{
-        transform: rotate(90deg);
-        z-index: 2;
-        transition: all 0.6s ease;
+    
 
-    }
 
     .link-mobile {
         display: block;
-        
-    }
-    .link-mobile {
-        display: block;
-        
     }
 
-    
-    .mobile-menu {
-        transform: translateX(-1200px);
-    }
-    
-    .mobile-menu .active{
-        display: block;
-        background-color: #515151;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 70vw;
-        height: 70vh;
-        text-align: center;
-        z-index: 2;
-        transition: left 0.5s ease
-    }
-
-    .mobile-menu a{
-        transform: translateY(-600px);
-
-    }
-    .mobile-menu a .active{
-        font-size: 20px;
-        margin-top: 10%;
-        color: #f7fdfc;
-        font-weight: 600;
-        cursor: pointer;
-        transform: translateY(0px);
-        transition: all 0.6s ease;
-
-    }
-
-    .button-mobile .active {
-        background: #665AE1;
-        font-weight: 600;
-        width: 130px;
-        height: 41px;
-        margin-top: 2rem;
-        border-radius: 50px;
-        border: none;
-        font-size: 24px;
-        color: #ffffff;
-        cursor: pointer;
-        transform: translate(0);
-        transition-delay: 0.3s;
-        transition: left 0.6s ease;
-    }
-    
+  
     .button-mobile {
-        transform: translateX(-600px);
         background: #665AE1;
         font-weight: 600;
         width: 130px;
@@ -359,61 +247,40 @@ main {
         color: #ffffff;
         cursor: pointer;
     }
+
+    
 
     .main-text {
         width: 100%;
         transform: translateX(0);
         position: static;
         width: 400px;
-
-
     }
 
     .logo-img {
-        width: 50%;
-        margin: 0 auto;
-
+        display: block;
     }
-
-
-
 }
 
-
-
-
-
-
-
-
-
-/* @media screen and (max-width: 400px){
-
-    body{
+@media screen and (max-width:703px) {
+    body {
         width: 100%;
         height: auto;
     }
-    main{
+
+    main {
         margin: 0;
         padding: 0;
-        
     }
-    
-    
-    .logo-img{
+
+    .logo-img {
         display: block;
         max-width: 80%;
         height: auto;
         margin: 149px auto 0;
-        
-        
     }
 
-    header{
-        display: none;
-    }
-
-    .main-text{
+    .main-text {
         display: block;
         width: 100%;
         height: auto;
@@ -421,34 +288,27 @@ main {
         margin: 14px auto 0;
     }
 
-    .main-text h1{
+    .main-text h1 {
         font-size: 50px;
         line-height: 60.95px;
         letter-spacing: 0%;
-
     }
 
-    .main-text h2{
+    .main-text h2 {
         font-size: 30px;
         line-height: 36.57px;
         letter-spacing: 0%;
         margin: 7px auto 32px;
-
-
     }
 
-    .main-text button{
+    .main-text button {
         width: 239px;
         height: 64px;
         border-radius: 50px;
-        margin: 0 auto;;
-
+        margin: 0 auto;
     }
 
-
-    .main-text p{
-        display: none;
+    .main-text p {
+        margin: 0 auto;
     }
-
-
- } */
+}
