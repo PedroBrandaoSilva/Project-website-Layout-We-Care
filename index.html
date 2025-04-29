@@ -17,6 +17,7 @@
 
 <body>
     <header>
+        <div class="sidebar"></div>
         <div class="desktop-menu">
             <a class="link-header">HOME</a>
             <a class="link-header">ABOUT</a>
@@ -24,9 +25,9 @@
             <a class="link-header">SERVICE</a>
             <a class="link-header">CONTACT</a>
             <button class="button-header">LOGIN</button>
-        </div>    
+        </div>
 
-        <div class="mobile-menu active">
+        <div class="mobile-menu">
 
             <a class="link-mobile">HOME</a>
             <a class="link-mobile">ABOUT</a>
@@ -36,7 +37,8 @@
             <button class="button-mobile">LOGIN</button>
         </div>
 
-        <div class="all-menus">
+        <div onclick="showMenu()" class="all-menus">
+
             <div class="menu"></div>
             <div class="menu"></div>
             <div class="menu"></div>
@@ -69,5 +71,7 @@
 
 
 </body>
+
+<script src="./scripts.js"></script>
 
 </html>
